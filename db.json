@@ -1,0 +1,67 @@
+{
+  "bg": "https://cdn.discordapp.com/attachments/804466825806479361/804471364051795998/carbg.jpg",
+  "title": "Quiz de Carangos",
+  "description": "Será que você manja mesmo de carros?",
+  "questions": [
+    {
+      "image": "https://i.pinimg.com/originals/62/1e/24/621e246995169a9ef0167ce86437655f.gif",
+      "title": "Qual a Mercedes mais recente?",
+      "description": "Não vale pesquisar",
+      "answer": 2,
+      "alternatives": [
+        "Mercedes A35 AMG",
+        "Mercedes GLE",
+        "Mercedes GLA",
+        "Mercedes Classe A"
+      ]
+    },
+    {
+      "image": "https://media.tenor.com/images/24a81c6b4a59269350112f76a4744acd/tenor.gif",
+      "title": "Qual o carro mais caro do mundo?",
+      "description": "Não desmereça os nomes",
+      "answer": 0,
+      "alternatives": [
+         "O carango preto",
+         "Ferrari Sergio",
+         "Aston Martin Valkyrie",
+         "Bugatti Chiron Sport"
+      ]
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Y5ub8CmNwwddzZq9CZoxaisSt9Jit9Cisg&usqp=CAU",
+      "title": "Qual o carro mais popular do Brasil?",
+      "description": "Mais popular que bolsolula",
+      "answer": 1,
+      "alternatives": [
+         "Fiat Uno",
+         "Gol VW",
+         "Fiat Palio",
+         "Porsche Panamera"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/8EoCZQ7lDDVKNMvNzL/giphy.gif",
+      "title": "Qual o melhor carro da história?",
+      "description": "Pra finalizar",
+      "answer": 1,
+      "alternatives": [
+         "Cristiano Ronaldo",
+         "Jecê (Jeremoaba Cerciliana)",
+         "Bugatti Chiron Sport",
+         "Outro"
+      ]
+    }
+  ],
+
+  "theme": {
+    "colors": {
+      "primary": "#D00152",
+      "secondary": "#8c19bb",
+      "mainBg": "#044894",
+      "contrastText": "#FFFFFF",
+      "wrong": "#ff0000",
+      "success": "#004D09"
+    },
+    "borderRadius": "4px"
+  }
+}
