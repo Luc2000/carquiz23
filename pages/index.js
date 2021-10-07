@@ -52,28 +52,7 @@ export default function Home() {
           <Widget.Content>
             <form onSubmit={function info(infosEvento) {
               infosEvento.preventDefault();
-              switch (name.toLowerCase()) {
-                case 'benjamin':
-                  alert('Bem vindo taradão');
-                  router.push(`benjamin`);
-                break;
-                case 'walmarcio':
-                  alert('Grande menino wal, boa sorte');
-                  router.push(`wal`);
-                break;
-                case 'abdalla':
-                  alert('Ainda tenho seus dados do cartão, e vc loga dnv no meu site?');
-                  alert('Brincadeira, vou pegar agora, boa sorte');
-                  router.push(`abdalla`);
-                break;
-                default:
-                  alert('Insere só seu primeiro nome pf, não pensei muito, ou é walmarcio, benjamin ou abdalla');
-                  alert('VOLTA A PÁGINA, NÃO TENHO CRIATIVIDADE PRA FALLBACK');
-                  alert('Eu sei que não tem como voltar, tô brincando, volta dps e tenta dnv');
-                  router.push(`sefuder`);
-                break;
-              }
-              // router manda pra próxima página
+              router.push(`quiz`);
             }}
             >
               <Input

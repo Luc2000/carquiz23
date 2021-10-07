@@ -31,9 +31,9 @@ export default function Footer(props) {
     <FooterWrapper {...props}>
       
       <p className="titlep">
-        A sorte é inimiga da humanidade<br />
+        Inovação distingue um líder de um seguidor.<br />
         {' '}
-        -Karl Marx
+        - Steve Jobs
       </p>
     </FooterWrapper>
   );
